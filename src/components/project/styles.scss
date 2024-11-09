@@ -1,0 +1,37 @@
+@use '../../scss/' as *;
+
+.swiper-pagination {
+    position: relative;
+    text-align: left;
+    .swiper-pagination-bullet {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 4px solid #232C36;
+        margin: 0 5px;
+        opacity: 1;
+        &.swiper-pagination-bullet-active {
+            width: 32px;
+            border-color: $color-main1;
+            border-radius: 100px;
+            &:first-child {
+                margin-left: 0 !important;
+            }
+        }
+        span {
+            &:first-child {
+                margin-left: 0 !important;
+            }
+        }
+    }
+    &.bottom_0 {
+        bottom: 0;
+    }
+}
+
+.slider-1 {
+    .swiper-wrapper {
+        margin-bottom: 20px;
+    }
+}
