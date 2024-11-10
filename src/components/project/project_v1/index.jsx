@@ -44,7 +44,7 @@ function Project(props) {
                                         pagination={{ clickable: true }}
                                     >
                                 { 
-                                    data.slice(0,2).map(item => (
+                                    data.slice(0,5).map(item => (
                                         <SwiperSlide key={item.id} item={item}>
                                             <img src={item.img} alt="Risebot" />
                                         </SwiperSlide>

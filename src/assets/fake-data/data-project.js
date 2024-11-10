@@ -1,8 +1,8 @@
-import img1 from '../images/latest/DSC07905.jpg';    
+import img1 from '../images/latest/IMG_9657.jpg';    
 import img2 from '../images/latest/DSC07941.jpg';  
 import img3 from '../images/latest/DSC08219.jpg';  
 import img4 from '../images/latest/DSC08239.jpg';  
-import img5 from '../images/latest/IMG_9657.jpg';   
+import img5 from '../images/latest/DSC07905.jpg';   
 
 import img7 from '../images/imgs/4.png';
 import img8 from '../images/imgs/6.png'; 
