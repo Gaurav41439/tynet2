@@ -1,8 +1,8 @@
-import img1 from '../images/slider/img_slider_1.jpg';    
-import img2 from '../images/common/project_1.png';  
-import img3 from '../images/common/project_2.png';  
-import img4 from '../images/common/project_3.png';  
-import img5 from '../images/common/project_4.png';   
+import img1 from '../images/latest/DSC07905.jpg';    
+import img2 from '../images/latest/DSC07941.jpg';  
+import img3 from '../images/latest/DSC08219.jpg';  
+import img4 from '../images/latest/DSC08239.jpg';  
+import img5 from '../images/latest/IMG_9657.jpg';   
 
 import img7 from '../images/imgs/4.png';
 import img8 from '../images/imgs/6.png'; 
@@ -38,19 +38,19 @@ const dataProject = [
     },  
     {
         id: 2, 
-        img: img1
+        img: img2
     },  
     {
         id: 3, 
-        img: img1
+        img: img3
     },  
     {
         id: 4, 
-        img: img1
+        img: img4
     },  
     {
         id: 5, 
-        img: img1
+        img: img5
     },  
     {
         id: 6, 

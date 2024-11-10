@@ -37,7 +37,7 @@ function Footer(props) {
                 <div className="row">
                     <div className="footer-logo">
                         <div className="logo_footer">
-                            <img src={require ("../../assets/images/logo/logo2.png")} alt="" />
+                            <img src={require ("../../assets/images/latest/ACM-WLOGOWHITE.png")}  style={{ width: '240px', height: '250px' }}  alt="" />
                         </div>
                         <p>An International Woman Hackathon.</p>
                     </div>
