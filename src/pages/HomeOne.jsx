@@ -118,7 +118,7 @@ function HomeOne(props) {
             
 
 
-            <Partner data={dataPartner} />
+            {/* <Partner data={dataPartner} /> */}
 
 
            
