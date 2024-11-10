@@ -87,8 +87,10 @@ function Footer(props) {
                                     <Link to="#">reachraitacmw@gmail.com</Link>
                                 </li>
                                 <li className="email">
-                                    <p>Website</p>
-                                    <Link to="https://rait-w.acm.org/">RAIT-W ACM</Link>
+                                <p>Website</p>
+            <a href="https://rait-w.acm.org/" target="_blank" rel="noopener noreferrer">
+                RAIT-W ACM
+            </a>
                                 </li>
                             </ul> 
                         </div>
