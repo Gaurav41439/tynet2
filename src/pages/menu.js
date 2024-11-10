@@ -23,6 +23,12 @@ const menus = [
         links: 'contact',
         yOffset: 5000, // Adjust the yOffset accordingly
     },
+    {
+        id: 4,
+        name: 'Faq',
+        links: 'Faq',
+        yOffset: 5000, // Adjust the yOffset accordingly
+    },
 ];
 
 export default menus;

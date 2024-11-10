@@ -85,6 +85,9 @@ function Footer(props) {
                                 <li className="email">
                                     <p>Email</p>
                                     <Link to="#">reachraitacmw@gmail.com</Link>
+                                    <p>secondary email</p>
+                                    <Link to="#">tynet.raitacmw@gmail.com</Link>
+                                    
                                 </li>
                                 <li className="email">
                                 <p>Website</p>
