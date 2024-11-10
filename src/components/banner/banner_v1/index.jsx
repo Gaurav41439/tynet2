@@ -21,7 +21,7 @@ function Banner (props) {
                 modules={[Navigation]}
                     spaceBetween={0}
                     slidesPerView={1}
-                    navigation 
+                    navigation={false}
                 >
                 {
                     data.slice(0,2).map(item => (

@@ -6,8 +6,8 @@ import img4 from '../images/imgs/3.png';
 const dataBanner = [
     {
         id: 1,
-        heading: 'A 24-Hour Online Women Centric Hackathon Uniting, Creating and Innovating!',
-        sub_heading: 'Visually and spatially connecting games in a seamless metaverse experience',
+        heading: 'A 24-Hour International Women Centric Hackathon',
+        sub_heading: 'Uniting, Creating and Innovation',
         img1: img1,
         img2: img2,
         img3: img3,

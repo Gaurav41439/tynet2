@@ -421,3 +421,40 @@
         opacity: 1;
     }
 }
+
+/* Remove the background and add color to menu links */
+.menu-link {
+    background: none;      /* Remove the background */
+    color: #ffffff;           /* Change the text color */
+    border: none;          /* Remove any border if present */
+    padding: 10px 15px;    /* Adjust padding to your preference */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 16px;       /* Adjust the font size */
+    font-weight: 500;      /* Make the text a bit bold */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for menu links */
+.menu-link:hover {
+    color: #3c98fb;        /* Change color on hover */
+    background-color: rgba(0, 123, 255, 0.1);  /* Light background on hover */
+}
+
+/* Style for active menu items */
+.menu-item.active .menu-link {
+    color: #3e9bff; /* Active link color */
+    font-weight: 600; /* Optionally, make active menu items bold */
+}
+
+/* Style for the sub-menu items */
+.sub-menu .menu-item a {
+    color: #ffffff;           /* Sub-menu text color */
+    text-decoration: none; /* Remove underline from sub-menu links */
+    padding: 5px 15px;     /* Adjust padding for sub-menu items */
+    font-size: 14px;       /* Font size for sub-menu */
+}
+
+.sub-menu .menu-item a:hover {
+    color: #3b95f5;        /* Change color of sub-menu items on hover */
+    background-color: rgba(0, 123, 255, 0.1); /* Light background for sub-menu hover */
+}

@@ -56,18 +56,9 @@ function Project(props) {
                         <div className="content-wrapper">
                             <div className="content_inner" data-aos="fade-left" data-aos-duration="1200">
                                 <div className="wrapper">
-                                    <h4>ACM-W</h4>
-                                <p className="desc">
-                                ACM-W is Association for Computing Machinery for Women,a collective effort within the Association for Computing Machinery (ACM) to support and empower women in the field of computing.                                </p>
-                                <ul className="price"> 
-                                    <li>
-                                        <span>Hosted Events: 13</span>
-                                    </li>
-                                    <li>
-                                       <span>Upcoming Events: 23</span>
-                                    </li>
-                                </ul>
-                                <h6 className="featured_title">Events Starts in</h6> 
+                                    <h4>TYNET 2.0</h4>
+                                <p className="desc">Content will be provided</p>                               
+                                 <h6 className="featured_title">Events Starts in</h6> 
                                 <div className="featured-countdown">
                                 <div className="js-countdown">
                                     {<Countdown />}

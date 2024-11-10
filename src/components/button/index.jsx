@@ -1,21 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-
 import './styles.scss';
-
 
 Button.propTypes = {
     title: PropTypes.string,
     path: PropTypes.string,
+    onClick: PropTypes.func,
+    addclass: PropTypes.string,
 };
 
 function Button(props) {
-    const {title , path , onClick, addclass} = props;
+    const { title, path, onClick, addclass } = props;
     return (
-        <Link className={`tf-button ${addclass}`} to={path} onClick={onClick}>                                   
-            {title} 
-        </Link>
+        <a 
+            className={`tf-button ${addclass}`} 
+            href={path} 
+            onClick={onClick} 
+            target="_blank" 
+            rel="noopener noreferrer"
+        >
+            {title}
+        </a>
     );
 }
 
