@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
 import Button from '../button/index';
 import './styles.scss';
-import logo from '../../assets/images/latest/Frame 1.png';
+import logo from '../../assets/images/latest/latestlogo.png';
 
 const Header = () => {
     const [scroll, setScroll] = useState(false);
@@ -42,7 +42,7 @@ const Header = () => {
                         <NavLink to="/">
                             <img
                                 src={logo}
-                                style={{ width: '250px', height: '70px' }}
+                                style={{ width: '250px', height: '50px' }}
                                 alt="Risebot"
                             />
                         </NavLink>
