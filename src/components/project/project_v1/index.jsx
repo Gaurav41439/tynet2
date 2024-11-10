@@ -57,7 +57,7 @@ function Project(props) {
                             <div className="content_inner" data-aos="fade-left" data-aos-duration="1200">
                                 <div className="wrapper">
                                     <h4>TYNET 2.0</h4>
-                                <p className="desc">Content will be provided</p>                               
+                                <p className="desc">The TYNET 2.0 Hackathon, organized by the RAIT ACM-W Chapter of Dr. D.Y. Patil University, is set to take place from January 10 to January 11, 2025, at the RAIT campus in Nerul, Navi Mumbai. Building on last year’s success, TYNET 2.0 is an international, women-centric event that aims to engage over 100+ participants in addressing complex real-world challenges through competitive coding and collaborative workshops. Focused on empowering women in technology, the hackathon will foster innovation, skill development, and practical engagement with technology among students and early-career developers.</p>                               
                                  <h6 className="featured_title">Events Starts in</h6> 
                                 <div className="featured-countdown">
                                 <div className="js-countdown">
