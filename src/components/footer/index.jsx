@@ -39,7 +39,7 @@ function Footer(props) {
                         <div className="logo_footer">
                             <img src={require ("../../assets/images/logo/logo2.png")} alt="" />
                         </div>
-                        <p>A one-stop destination for web3 gaming.</p>
+                        <p>An International Woman Hackathon.</p>
                     </div>
                     <div className="widget">
                         <h5 className="widget-title">
@@ -48,40 +48,40 @@ function Footer(props) {
                         <ul className="widget-link contact">
                             <li>
                                 <p>Address</p>
-                                <Link to="#">1901 Thornridge Cir. Shiloh, Hawaii 81063</Link>
+                                <Link to="#">Ramrao Adik Institute Of Technology</Link>
                             </li>
                             <li>
                                 <p>Phone</p>
-                                <Link to="#">+33 7 00 55 57 60</Link>
+                                <Link to="#">+91 9423119067</Link>
                             </li>
                             <li className="email">
                                 <p>Email</p>
-                                <Link to="#">risebot@support.com</Link>
+                                <Link to="#">reachraitacmw@gmail.com</Link>
                             </li>
                         </ul>
                     </div>
                     <div className="widget support">
                         <h5 className="widget-title">
-                            Support
+                           Our Domains
                         </h5>
                         <ul className="widget-link">
                             <li>
-                                <Link to="/connect">Connect Wallet</Link>
+                                <Link to="/connect">Technical</Link>
                             </li>
                             <li>
-                                <Link to="/forgetPass">Forget Password</Link>
+                                <Link to="/forgetPass">Management</Link>
                             </li>
                             <li>
-                                <Link to="/faqs">FAQs</Link>
+                                <Link to="/faqs">Media Graphics</Link>
                             </li>
                             <li>
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/contact">Publicity</Link>
                             </li>
                         </ul>
                     </div>
                     <div className="widget link">
                         <h5 className="widget-title">
-                            Quick link
+                           Useful link
                         </h5>
                         <ul className="widget-link">
                             <li>
@@ -105,7 +105,7 @@ function Footer(props) {
             <div className="container">
                 <div className="wrap-fx">
                     <div className="Copyright">
-                        Copyright © 2023. Designed by <Link to="https://themeforest.net/user/themesflat/portfolio">Themesflat</Link>
+                        Copyright © 2023. Designed by Rait Technical Team
                     </div>
                     <ul className="social">
                         <li>
