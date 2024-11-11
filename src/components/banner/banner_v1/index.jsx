@@ -39,7 +39,9 @@ function Banner (props) {
                                                     <h1 className="title" >{item.heading}</h1>
                                                     <p className="sub-title">{item.sub_heading}</p>
                                                     <div className="wrap-btn"> 
-                                                        <Button title='Register now' path='https://unstop.com/hackathons/tynet-20-international-women-hackathon-dr-d-y-patils-ramrao-adik-institute-of-technology-1214744' addclass='style2'/>  {/* Register Now */}
+                                                    <a href="https://unstop.com/hackathons/tynet-20-international-women-hackathon-dr-d-y-patils-ramrao-adik-institute-of-technology-1214744" className="tf-button style3" target="_blank" rel="noopener noreferrer">
+    Register Now
+</a>
                                                     </div>
                                                 </div>
                                                 <div className="image">
