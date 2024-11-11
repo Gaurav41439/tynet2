@@ -67,18 +67,7 @@ function HomeOne(props) {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="roadmap-box-style">
-                                <div className="icon">
-                                    <img src={icon} alt="" />
-                                </div>
-                                <div className="content">
-                                    <h6 className="date">January 11, 2025</h6>
-                                    <ul>
-                                        <li>Round 2: Final Judging</li>
-                                        <li>Validectory Ceremony</li>
-                                    </ul>
-                                </div>
-                            </div>
+
                     
                         </div>
                         <div className="right">

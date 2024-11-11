@@ -9,7 +9,7 @@ const menus = [
         id: 2,
         name: 'Roadmap',
         links: '/roadmap',
-        yOffset: 0, // Adjust this value based on where the section is on your page
+        yOffset: 10, // Adjust this value based on where the section is on your page
     },
     {
         id: 3,

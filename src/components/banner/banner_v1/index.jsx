@@ -39,7 +39,7 @@ function Banner (props) {
                                                     <h1 className="title" >{item.heading}</h1>
                                                     <p className="sub-title">{item.sub_heading}</p>
                                                     <div className="wrap-btn"> 
-                                                        <Button title='Register now' path='/' addclass='style2'/>  
+                                                        <Button title='Register now' path='/' addclass='style2'/>  {/* Register Now */}
                                                     </div>
                                                 </div>
                                                 <div className="image">

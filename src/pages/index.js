@@ -1,5 +1,5 @@
 import HomeOne from "./HomeOne"; 
-import HomeThree from "./HomeThree";
+/*import HomeThree from "./HomeThree";
 import HomeTwo from "./HomeTwo";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
@@ -17,18 +17,26 @@ import SubmitIGO from "./SubmitIGO";
 import Login from "./Login";
 import Register from "./Register";
 import ForgetPass from "./ForgetPass";
-import Roadmap from "./Roadmap";
+
 import BlogGrid from "./BlogGrid";
 import BlogList from "./BlogList";
-import BlogDetails from "./BlogDetails";
+import BlogDetails from "./BlogDetails";*/
+
 import Contact from "./Contact";
 import PageFaqs from "./PageFaqs";
+import Roadmap from "./Roadmap";
 
 
 const routes = [
   
   { path: '/', component: <HomeOne />},
-  { path: '/home_v2', component: <HomeTwo />},
+  { path: '/faqs', component: <PageFaqs />},
+  { path: '/roadmap', component: <Roadmap />},
+  { path: '/contact', component: <Contact />},
+  { name: 'Domains', links: '/home', yOffset: 1200 },
+
+  /*
+   { path: '/home_v2', component: <HomeTwo />},
   { path: '/home_v3', component: <HomeThree />},
   { path: '/project_v1', component: <Project1 />},
   { path: '/project_v2', component: <Project2 />},
@@ -41,18 +49,13 @@ const routes = [
   { path: '/token', component: <Token />},
   { path: '/connect', component: <ConnectWallet />},
   { path: '/team_details', component: <TeamDetails />},
-  { path: '/faqs', component: <PageFaqs />},
-  { path: '/login', component: <Login />},
+    { path: '/login', component: <Login />},
   { path: '/register', component: <Register />},
   { path: '/forgetPass', component: <ForgetPass />},
-  { path: '/roadmap', component: <Roadmap />},
-  { path: '/blog_grid', component: <BlogGrid />},
+    { path: '/blog_grid', component: <BlogGrid />},
   { path: '/blog_list', component: <BlogList />},
   { path: '/blog_details', component: <BlogDetails />},
-  { path: '/contact', component: <Contact />},
-  { name: 'Domains', links: '/home', yOffset: 1200 },
-
-
+*/
 
 ]
 

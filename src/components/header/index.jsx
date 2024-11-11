@@ -76,7 +76,7 @@ const Header = () => {
                                     {/* Apply the same logic for FAQ as the other links */}
                                     {data.name === 'Faq' ? (
                                         <button
-                                            onClick={() => handleLinkClick('/faqs', 0)} // Navigate to /faqs and scroll to yOffset 0
+                                            onClick={() => handleLinkClick('/faqs', 10)} // Navigate to /faqs and scroll to yOffset 0
                                             className="menu-link"
                                         >
                                             {data.name}

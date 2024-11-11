@@ -15,7 +15,7 @@ function CTA(props) {
         }
     )
     return (
-        <section className="tf-section tf_CTA">
+        <section className="tf-section tf_CTA" style={{ marginTop: '50px' }}>
 
                 <div className="container relative">
                     <div className="overlay">
@@ -28,9 +28,9 @@ function CTA(props) {
                                 </h2>
                                 <p className="sub">{dataTitle.subtitle}</p>
                                 <div className="wrap-btn">
-                                    <Link to="/submit_igo" className="tf-button style3">
-                                        Register Now
-                                    </Link>
+                                <a href="/" className="tf-button style3" target="_blank" rel="noopener noreferrer">
+    Register Now
+</a>
                                 </div>
                             </div>
                         </div>
