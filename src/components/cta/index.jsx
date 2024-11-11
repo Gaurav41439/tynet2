@@ -28,7 +28,7 @@ function CTA(props) {
                                 </h2>
                                 <p className="sub">{dataTitle.subtitle}</p>
                                 <div className="wrap-btn">
-                                <a href="/" className="tf-button style3" target="_blank" rel="noopener noreferrer">
+                                <a href="https://unstop.com/hackathons/tynet-20-international-women-hackathon-dr-d-y-patils-ramrao-adik-institute-of-technology-1214744" className="tf-button style3" target="_blank" rel="noopener noreferrer">
     Register Now
 </a>
                                 </div>
