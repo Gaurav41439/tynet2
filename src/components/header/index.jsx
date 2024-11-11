@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate, useLocation } from 'react-router-dom';
 import menus from '../../pages/menu';
 import Button from '../button/index';
 import './styles.scss';
@@ -9,13 +9,16 @@ const Header = () => {
     const [scroll, setScroll] = useState(false);
     const [menuActive, setMenuActive] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
+    const navigate = useNavigate();
+    const location = useLocation(); // Get the current route location
 
     useEffect(() => {
-        window.addEventListener('scroll', () => {
+        const handleScroll = () => {
             setScroll(window.scrollY > 300);
-        });
+        };
+        window.addEventListener('scroll', handleScroll);
         return () => {
-            window.removeEventListener('scroll', () => {});
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
@@ -34,6 +37,21 @@ const Header = () => {
         });
     };
 
+    const handleLinkClick = (links, yOffset) => {
+        // Check if we are already on the domains page
+        if (location.pathname === links) {
+            // If already on the page, just scroll to the offset without navigation
+            scrollToSection(yOffset);
+        } else {
+            // If navigating to a new page, use navigate
+            navigate(links);
+            // Delay scrolling to allow routing to complete
+            setTimeout(() => {
+                scrollToSection(yOffset);
+            }, 100); // Small delay to ensure routing happens before scroll
+        }
+    };
+
     return (
         <header id="header_main" className={`header ${scroll ? 'is-fixed' : ''}`}>
             <div className="container">
@@ -42,8 +60,8 @@ const Header = () => {
                         <NavLink to="/">
                             <img
                                 src={logo}
-                                style={{ width: '250px', height: '50px' }}
                                 alt="Risebot"
+                                className="header-logo-image"
                             />
                         </NavLink>
                     </div>
@@ -55,12 +73,23 @@ const Header = () => {
                                     onClick={() => handleDropdown(idx)}
                                     className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`}
                                 >
-                                    <button
-                                        onClick={() => scrollToSection(data.yOffset)}
-                                        className="menu-link"
-                                    >
-                                        {data.name}
-                                    </button>
+                                    {/* Apply the same logic for FAQ as the other links */}
+                                    {data.name === 'Faq' ? (
+                                        <button
+                                            onClick={() => handleLinkClick('/faqs', 0)} // Navigate to /faqs and scroll to yOffset 0
+                                            className="menu-link"
+                                        >
+                                            {data.name}
+                                        </button>
+                                    ) : (
+                                        <button
+                                            onClick={() => handleLinkClick(data.links, data.yOffset)}
+                                            className="menu-link"
+                                        >
+                                            {data.name}
+                                        </button>
+                                    )}
+
                                     {data.namesub && (
                                         <ul className="sub-menu">
                                             {data.namesub.map((submenu) => (

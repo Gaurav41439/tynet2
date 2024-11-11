@@ -390,7 +390,7 @@ function BlogDetails(props) {
         </div>
     </section>
 
-            {<CTA />}
+            
             
         </div>
     );

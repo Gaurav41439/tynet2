@@ -72,8 +72,6 @@ function BlogGrid(props) {
         </div>
     </section>
             
-            {<CTA />}
-            
         </div>
     );
 }

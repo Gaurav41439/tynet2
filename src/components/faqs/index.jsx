@@ -35,16 +35,7 @@ function Faqs(props) {
 
                             </div>
                         </div>
-                        <div className="col-md-12">
-                            <div className="content_faq text-center">
-                                <p>If you don`t find an answer, contact with our experts</p>
-                                <div className="wrap-btn">
-                                    <Link to="/contact" className="tf-button style1">
-                                        get in touch
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </section>

@@ -41,7 +41,6 @@ const routes = [
   { path: '/token', component: <Token />},
   { path: '/connect', component: <ConnectWallet />},
   { path: '/team_details', component: <TeamDetails />},
-  { path: '/submit_igo', component: <SubmitIGO />},
   { path: '/faqs', component: <PageFaqs />},
   { path: '/login', component: <Login />},
   { path: '/register', component: <Register />},
@@ -51,6 +50,7 @@ const routes = [
   { path: '/blog_list', component: <BlogList />},
   { path: '/blog_details', component: <BlogDetails />},
   { path: '/contact', component: <Contact />},
+  { name: 'Domains', links: '/home', yOffset: 1200 },
 
 
 

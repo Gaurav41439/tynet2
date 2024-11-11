@@ -1081,7 +1081,7 @@
 }
 
 .contact-info {
-    @include flex(flex-start,space-between);
+    @include flex(flex-start,space-around);
     max-width: 650px;
     margin: 0 auto;
     li {

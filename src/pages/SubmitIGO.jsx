@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 function SubmitIGO(props) {
     return (
         <div className='inner-page home2'>
-            {<PageTitle title='Submit IGO on chain' />}
+           {/* {<PageTitle title='Submit IGO on chain' />}
 
             <section className="tf-section project-info pt60 pb60">
                 <div className="container"> 
@@ -229,10 +229,10 @@ function SubmitIGO(props) {
                     </div>
                 </div>
             </section>
-
+*/}
             {<Faqs data={dataFaq} />} 
 
-            {<CTA />}
+            
             
         </div>
     );

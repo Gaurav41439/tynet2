@@ -8,8 +8,8 @@ const menus = [
     {
         id: 2,
         name: 'Roadmap',
-        links: '/',
-        yOffset: 2260, // Adjust this value based on where the section is on your page
+        links: '/roadmap',
+        yOffset: 0, // Adjust this value based on where the section is on your page
     },
     {
         id: 3,
@@ -20,14 +20,14 @@ const menus = [
     {
         id: 4,
         name: 'Contact',
-        links: 'contact',
-        yOffset: 5000, // Adjust the yOffset accordingly
+        links: '/contact',
+        yOffset: 10, // Adjust the yOffset accordingly
     },
     {
-        id: 4,
+        id: 5,
         name: 'Faq',
-        links: 'Faq',
-        yOffset: 5000, // Adjust the yOffset accordingly
+        links: '/faqs',
+        yOffset: 0, // Adjust the yOffset accordingly
     },
 ];
 

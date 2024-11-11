@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import PageTitle from '../components/pagetitle';
 import CTA from '../components/cta/cta_v2';
 
-
 function Contact(props) {
+
+    useEffect(() => {
+        // Scroll to a specific yOffset (10px) when the component is mounted
+        window.scrollTo(0, 10);
+      }, []);
+      
+    
     return (
         <div className='inner-page'>
             {<PageTitle title='Contact' />}
@@ -31,21 +37,10 @@ function Contact(props) {
                                     </div>
                                     <div className="content">
                                         <p>Address</p>
-                                        <p className="white">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+                                        <p className="white">Ramrao Adik Institute of Technology, Nerul</p>
                                     </div>
                                 </li>
-                                <li>
-                                    <div className="icon">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M2.8125 8.4375C2.8125 18.7925 11.2075 27.1875 21.5625 27.1875H24.375C25.1209 27.1875 25.8363 26.8912 26.3637 26.3637C26.8912 25.8363 27.1875 25.1209 27.1875 24.375V22.66C27.1875 22.015 26.7488 21.4525 26.1225 21.2963L20.5938 19.9137C20.0438 19.7762 19.4663 19.9825 19.1275 20.435L17.915 22.0513C17.5625 22.5213 16.9537 22.7287 16.4025 22.5262C14.3561 21.7739 12.4977 20.5857 10.956 19.044C9.41426 17.5023 8.22609 15.6439 7.47375 13.5975C7.27125 13.0463 7.47875 12.4375 7.94875 12.085L9.565 10.8725C10.0187 10.5337 10.2238 9.955 10.0863 9.40625L8.70375 3.8775C8.62767 3.57337 8.45215 3.30338 8.20507 3.11042C7.95798 2.91746 7.6535 2.8126 7.34 2.8125H5.625C4.87908 2.8125 4.16371 3.10882 3.63626 3.63626C3.10882 4.16371 2.8125 4.87908 2.8125 5.625V8.4375Z" stroke="#798DA3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                                            </svg> 
-                                                                    
-                                    </div>
-                                    <div className="content">
-                                        <p>Phone</p>
-                                        <p className="white">+33 7 00 55 57 60</p>
-                                    </div>
-                                </li>
+                                
                                 <li>
                                     <div className="icon">
                                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,16 +50,17 @@ function Contact(props) {
                                     </div>
                                     <div className="content">
                                         <p>Email</p>
-                                        <p className="color-hover">risebot@support.com</p>
+                                        <p className="color-hover">reachraitacmw@gmail.com</p>
                                     </div>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>   
 
-            <section className="tf-section project-info">
+           {/*} <section className="tf-section project-info">
                 <div className="container"> 
                     <div className="row">
                         <div className="col-md-12">
@@ -109,7 +105,7 @@ function Contact(props) {
                     </div>
                 </div>
             </section>
-            {<CTA />}
+            {<CTA />*/}
             
         </div>
     );
