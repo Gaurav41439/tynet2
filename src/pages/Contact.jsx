@@ -49,7 +49,11 @@ function Contact(props) {
                                                     
                                     </div>
                                     <div className="content">
-                                        <p>Email</p>
+                                        <p>Primary Email</p>
+                                        <p className="color-hover">tynet.raitacmw@gmail.com</p>
+                                    </div>
+                                    <div className="content">
+                                        <p>Secondary Email</p>
                                         <p className="color-hover">reachraitacmw@gmail.com</p>
                                     </div>
                                 </li>
