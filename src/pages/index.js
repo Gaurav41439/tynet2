@@ -1,4 +1,6 @@
 import HomeOne from "./HomeOne"; 
+
+import TeamDetails from "./TeamDetails";
 /*import HomeThree from "./HomeThree";
 import HomeTwo from "./HomeTwo";
 import Project1 from "./Project1";
@@ -11,7 +13,6 @@ import ProjectDetails from "./ProjectDetails";
 import SubmitProject from "./SubmitProject";
 import Token from "./Token";
 import ConnectWallet from "./ConnectWallet";
-import TeamDetails from "./TeamDetails";
 import SubmitIGO from "./SubmitIGO";
 
 import Login from "./Login";
@@ -33,10 +34,12 @@ const routes = [
   { path: '/faqs', component: <PageFaqs />},
   { path: '/roadmap', component: <Roadmap />},
   { path: '/contact', component: <Contact />},
+  { path: '/team_details', component: <TeamDetails /> },
+  
   { name: 'Domains', links: '/home', yOffset: 1200 },
 
   /*
-   { path: '/home_v2', component: <HomeTwo />},
+  { path: '/home_v2', component: <HomeTwo />},
   { path: '/home_v3', component: <HomeThree />},
   { path: '/project_v1', component: <Project1 />},
   { path: '/project_v2', component: <Project2 />},

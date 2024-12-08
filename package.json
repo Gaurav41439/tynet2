@@ -1,5 +1,6 @@
 {
   "name": "risebotreact",
+  "homepage": "https://rait-w.acm.org/tynet/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,7 @@
     "chart.js": "^4.2.1",
     "highcharts": "^10.3.2",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.0",
+    "react-bootstrap": "^2.10.6",
     "react-bootstrap-accordion": "^1.0.0",
     "react-chartjs-2": "^5.2.0",
     "react-countdown": "^2.3.5",

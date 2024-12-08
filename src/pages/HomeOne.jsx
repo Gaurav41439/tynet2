@@ -58,7 +58,7 @@ function HomeOne(props) {
                                 <img src={icon} alt="" />
                             </div>
                             <div className="content">
-                                <h6 className="date">December 11-15, 2024</h6>
+                                <h6 className="date">December 14-15, 2024</h6>
                                 <ul>
                                     <li>Round 1 : Evalution</li>
                                     <li>Announcement of Finalist</li>
@@ -86,7 +86,7 @@ function HomeOne(props) {
                                 <img src={icon} alt="" />
                             </div>
                             <div className="content">
-                                <h6 className="date">December 10, 2024</h6>
+                                <h6 className="date">December 13, 2024</h6>
                                 <ul>
                                     <li>Round 1: Online</li>
                                     <li>PPT Submission Deadline</li>
@@ -128,7 +128,7 @@ function HomeOne(props) {
                             </div> */}
 
 
-            {/* <Partner data={dataPartner} /> */}
+            { <Partner data={dataPartner} /> }
 
            
 
