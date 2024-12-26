@@ -752,7 +752,6 @@
         mask-image: url('./../../assets/images/backgroup/bg_team.png');
         -webkit-mask-position: center center;
         mask-position: center center;
-        -webkit-mask-repeat: no-repeat;
         background: url('./../../assets/images/backgroup/bg_team.png');
         background-position: center,center;
         background-size: cover;
@@ -800,11 +799,11 @@
         width: calc((100% - 150px) / 6);
         margin-bottom: 30px;
         img {
-            opacity: 0.3;
             @include transition3;
             &.active,
             &:hover {
                 opacity: 1;
+                filter: brightness(1.5)
             }
         }
 
@@ -824,13 +823,19 @@
             mask-image: url('./../../assets/images/backgroup/bg_partner_2.png');
             -webkit-mask-position: center center;
             mask-position: center center;
-            -webkit-mask-repeat: no-repeat;
             background: url('./../../assets/images/backgroup/bg_partner_2.png');
             background-position: center,center;
             background-size: cover;
             @include flex(center,center);
         }  
     }
+}
+
+.subtitle {
+    font-size: 1.5rem; // Adjust the size as needed
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .move4 {
