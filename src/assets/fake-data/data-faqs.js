@@ -24,7 +24,7 @@ const dataFaq = [
     {
         id: 5,
         title: 'Is there a participation fee?',
-        content: 'Round 1 of TYNET 2.0 is completely free. However, if your team is selected for Round 2, a small participation fee will be required to cover event amenities, including meals and refreshments, which will be provided at no additional cost during the 24-hour hackathon.'
+        content: 'Round 1 is completely free. However, if your team is selected for Round 2, a small participation fee will be required to cover event amenities, including meals and refreshments, which will be provided at no additional cost during the 24-hour hackathon.'
     },
     {
         id: 6,
