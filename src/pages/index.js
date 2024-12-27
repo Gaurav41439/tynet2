@@ -1,7 +1,7 @@
 import HomeOne from "./HomeOne"; 
 
 import TeamDetails from "./TeamDetails";
-/*import HomeThree from "./HomeThree";
+import HomeThree from "./HomeThree";
 import HomeTwo from "./HomeTwo";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
@@ -21,7 +21,7 @@ import ForgetPass from "./ForgetPass";
 
 import BlogGrid from "./BlogGrid";
 import BlogList from "./BlogList";
-import BlogDetails from "./BlogDetails";*/
+import BlogDetails from "./BlogDetails";
 
 import Contact from "./Contact";
 import PageFaqs from "./PageFaqs";
@@ -38,7 +38,7 @@ const routes = [
   
   { name: 'Domains', links: '/home', yOffset: 1200 },
 
-  /*
+  
   { path: '/home_v2', component: <HomeTwo />},
   { path: '/home_v3', component: <HomeThree />},
   { path: '/project_v1', component: <Project1 />},
@@ -58,7 +58,7 @@ const routes = [
     { path: '/blog_grid', component: <BlogGrid />},
   { path: '/blog_list', component: <BlogList />},
   { path: '/blog_details', component: <BlogDetails />},
-*/
+
 
 ]
 

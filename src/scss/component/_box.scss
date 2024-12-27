@@ -700,35 +700,24 @@
     width: calc((100% - 90px) / 4);
     position: relative;
     margin-bottom: 20px;
-    .shape {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 4px;
-        z-index: 9;
-        margin-left: 106px;
-        opacity: 1;
-        visibility: visible;
-        @include transition3;
+
+    @media (min-width: 1200px) {
+        width: calc((100% - 40px) / 2);
     }
-    .shape_ecfect {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 4px;
-        z-index: 9;
-        margin-left: 106px;
-        opacity: 0;
-        visibility: hidden;
-        @include transition3;
+
+    .shape, .shape_ecfect {
+        display: none; // This will hide the decorative elements
     }
+
+
     .image {
         z-index: 999;
-        background: url('./../../assets/images/backgroup/bg_img_team.png') center center no-repeat;
         width: 156px;
         height: 176px;
         margin: 0 auto;
         position: relative;
+        background: url('./../../assets/images/backgroup/bg_img_team.png') center center no-repeat;
+        
         img {
             width: 156px;
             height: 176px;
@@ -739,34 +728,21 @@
             -webkit-mask-repeat: no-repeat;
             mask-repeat: no-repeat;
             overflow: hidden;
+            object-fit: cover;
         }
     }
+
     .content {
         width: 100%;
         text-align: center;
-        padding: 112px 20px 42px;
+        padding: 112px 30px 42px;
         margin-top: -102px;
-        border-radius: 20px;
-        position: relative;
-        -webkit-mask-image: url('./../../assets/images/backgroup/bg_team.png');
-        mask-image: url('./../../assets/images/backgroup/bg_team.png');
-        -webkit-mask-position: center center;
-        mask-position: center center;
-        background: url('./../../assets/images/backgroup/bg_team.png');
-        background-position: center,center;
-        background-size: cover;
-        z-index: 99; 
-        .name {
-            font-size: 24px;
-            line-height: 1.4;
-            margin-bottom: 0;
-        }
-        .position {
-            font-size: 14px;
-            line-height: 1.4;
-            margin-bottom: 20px;
-        }
+        background: #1B1F2B;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 99;
     }
+
+
 
     &:hover {
         .shape {
@@ -798,7 +774,9 @@
     .image {
         width: calc((100% - 150px) / 6);
         margin-bottom: 30px;
+
         img {
+            filter: contrast(0.7);
             @include transition3;
             &.active,
             &:hover {

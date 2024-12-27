@@ -130,7 +130,7 @@ function HomeOne(props) {
 
             { <Partner data={dataPartner} /> }
 
-           
+            {<Team data={dataTeam} />}
 
 
            
