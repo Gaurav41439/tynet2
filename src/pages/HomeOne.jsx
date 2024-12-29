@@ -8,14 +8,14 @@ import dataBanner from '../assets/fake-data/data-banner';
 import Project from '../components/project/project_v1';  
 import dataProject from '../assets/fake-data/data-project';
 import Project3 from '../components/project/project_v3';  
-import Token from '../components/token';
 import icon from '../assets/images/common/down.svg'
-
+import data from '../assets/fake-data/data-shortlisted'
 import Team from '../components/team';
 import Partner from '../components/partner';
 import dataPartner from '../assets/fake-data/data-partner';
 import CTA from '../components/cta';
 import dataTeam from '../assets/fake-data/data-team';
+
 function HomeOne(props) {
  
     return (
@@ -132,6 +132,64 @@ function HomeOne(props) {
 
             {<Team data={dataTeam} />}
 
+            <section className="tf-section project_2">
+                <div className="container">
+                    <div className="row"> 
+                        <div className="col-md-12">
+                            <div className="tf-title left mb40" data-aos="fade-up" data-aos-duration="800">
+                                <h2 className="title">
+                                    Shortlisted Teams
+                                </h2>
+                            </div>
+                        </div>
+                        <div className="col-md-12">
+                            <div className="project-box-style3_wrapper">
+
+                                {
+                                    data.map(item => (
+                                        <div key={item.id} className="project-box-style3" data-aos="fade-in" data-aos-duration="800">
+                                            <div className="header_project">
+                                                <div className="image">
+                                                    <img className="mask"  src={require ("../assets/images/teamicon.png")} alt="" />
+                                                   
+                                                </div>
+                                                <h5 className="heading">{item.title}</h5>
+                                            </div>
+                                            <div className="content">
+                                                <div className="td td1">
+                                                    <p>Team Leader</p>
+                                                    <p >{item.teamLeader}</p>
+                                                </div>
+                                                <div className="td td2">
+                                                    <p>Team Member</p>
+                                                    <p >{item.teammember1}</p>
+                                                </div>
+                                                {item.teammember2 && (
+                                                    <div className="td td2">
+                                                        <p>Team Member</p>
+                                                        <p>{item.teammember2}</p>
+                                                    </div>
+                                                )}
+                                                {item.teammember3 && (
+                                                    <div className="td td2">
+                                                        <p>Team Member</p>
+                                                        <p>{item.teammember3}</p>
+                                                    </div>
+                                                )}
+                                               
+                                            </div>
+                                        </div>
+                                    ))
+                                }
+                                
+                                
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
 
            
 
