@@ -1,161 +1,46 @@
-import img1 from '../images/post/post_1.jpg';
-import img2 from '../images/post/post_2.jpg';
-import img3 from '../images/post/post_3.jpg';
-import img4 from '../images/post/post_4.jpg';
-import img5 from '../images/post/post_5.jpg';
-import img6 from '../images/post/post_6.jpg';
-import img7 from '../images/post/post_7.jpg';
-import img8 from '../images/post/post_8.jpg';
-import img9 from '../images/post/post_9.jpg';
-import img10 from '../images/post/post_10.png';
-import img11 from '../images/post/post_11.png';
-import img12 from '../images/post/post_12.png';
-import img13 from '../images/post/post_13.png';
-import img14 from '../images/post/post_14.png';
-import img15 from '../images/post/post_15.png';
-import img16 from '../images/post/post_16.png';
-import img17 from '../images/post/post_17.png';
-import img18 from '../images/post/post_18.png';
-import img19 from '../images/post/post_19.png';
-
+import img1 from '../images/post/Untitled(1).jpg';
+import img2 from '../images/post/Untitled.jpg';
+import img3 from '../images/post/Untitled(2).jpg';
+import img4 from '../images/post/Untitled(3).jpg';
+import img5 from '../images/post/Untitled(4).jpg';
 
 
 const dataBlog = [
     {
         id: 1,
         img: img1,
-        heading: 'Decoded: Metaverse and the future of banking',
-        cate: 'Metaverse',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
+        heading: 'Solid Waste Management under Swachh Bharat Mission',
+        cate: 'Sustainability and Environmental Technology',
+        text: 'Managing waste efficiently is critical for cleaner cities and villages. However, challenges like improper segregation, unorganized collection systems, and lack of public awareness hinder the goals of the Swachh Bharat Mission.'
     },
     {
         id: 2,
         img: img2,
-        heading: 'Tapping the Metaverse for immersive service',
-        cate: 'Web 3.0',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
+        heading: 'Traffic Management and Congestion Reduction',
+        cate: 'Urban Infrastructure and Smart Cities',
+        text: 'Traffic congestion in India\'s urban areas results in delays, increased pollution, and fuel wastage. Efficient traffic management systems are essential to address these challenges.'
+    },
     {
         id: 3,
         img: img3,
-        heading: 'JetSynthesys to invest $50 million to build metaverse...',
-        cate: 'Crypto Trade',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
+        heading: 'Telemedicine for Rural Healthcare',
+        cate: 'Healthcare and Digital Inclusion',
+        text: 'Rural areas in India face a significant lack of healthcare facilities, leading to delays in treatment and reliance on unqualified practitioners. Telemedicine can bridge this gap, supporting the objectives of Ayushman Bharat Mission to provide affordable and accessible healthcare.'
+    },
     {
         id: 4,
         img: img4,
-        heading: 'Creating a constitutional framework for metaverse',
-        cate: 'Farming',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
+        heading: 'Women Safety Application under Mission Shakti',
+        cate: 'Women Safety and Empowerment',
+        text: 'Ensuring women\'s safety in public and private spaces is a key priority for India under Mission Shakti. Despite efforts, women still face threats like harassment, violence, and lack of support systems in emergencies.'
+    },
     {
         id: 5,
         img: img5,
-        heading: 'Disney CEO lays out early plan for digital future',
-        cate: 'Metaverse',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 6,
-        img: img6,
-        heading: 'Shemaroo to partner with Seracle for Web3 foray',
-        cate: 'Web 3.0',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 7,
-        img: img7,
-        heading: 'New VR jobs die down at Meta, Google amid hiring freeze...',
-        cate: 'Crypto Trade',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 8,
-        img: img8,
-        heading: 'Digital India Act to police social media and OTT platforms',
-        cate: 'Farming',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 9,
-        img: img9,
-        heading: 'Meta raises $10 billion in first-ever bond offering',
-        cate: 'Metaverse',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-
-    {
-        id: 10,
-        img: img10,
-        heading: 'Now Shemaroo offers movie theatre on metaverse',
-        cate: 'IGOs',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    },
-    {
-        id: 11,
-        img: img11,
-        heading: 'Skepticism, confusion, frustration: Inside Mark Zuckerbergs metaverse struggles',
-        cate: 'Metaverse',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 12,
-        img: img12,
-        heading: 'Tencent shifts focus to majority deals, overseas gaming assets for growth: sources',
-        cate: 'Crypto Trade',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 13,
-        img: img13,
-        heading: 'Meta working to speed up metaverse, but success far from certain',
-        cate: 'Web 3.0',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 14,
-        img: img14,
-        heading: 'Microsoft brings animated avatars to Teams in metaverse push',
-        cate: 'Crypto Trade',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 15,
-        img: img15,
-        heading: 'Tapping the Metaverse for immersive service',
-        cate: 'Web 3.0',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 16,
-        img: img16,
-        heading: 'Translucia forays into India market, to build $ 3 billion worth metaverses through...',
-        cate: 'Farming',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 17,
-        img: img17,
-        heading: 'People still dont know what metaverse is all about: Tim Cook',
-        cate: 'Metaverse',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 18,
-        img: img18,
-        heading: 'Tencent shifts focus to majority deals, overseas gaming assets for growth: sources',
-        cate: 'Metaverse',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-    {
-        id: 19,
-        img: img19,
-        heading: 'Together Labs subsidiary announces close of VCORE presale',
-        cate: 'Farming',
-        text: 'The metaverse can help the healthcare fraternity by providing trainings on understanding medical tools and...'
-    }, 
-
-]
+        heading: 'Economic Empowerment Platform for Women',
+        cate: 'Economic Development and Gender Equality',
+        text: 'Women in India face limited access to career resources, mentorship, and tools to manage entrepreneurial ventures. Supporting their economic independence aligns with the Beti Bachao Beti Padhao Mission.'
+    }
+];
 
 export default dataBlog;
