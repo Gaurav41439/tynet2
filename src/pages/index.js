@@ -47,7 +47,7 @@ const routes = [
   { path: '/project_v4', component: <Project4 />},
   { path: '/project_v5', component: <Project5 />},
   { path: '/project_list', component: <ProjectList />},
-  { path: '/project_details', component: <ProjectDetails />},
+  { path: '/problem_statement', component: <ProjectDetails />},
   { path: '/project_submit', component: <SubmitProject />},
   { path: '/token', component: <Token />},
   { path: '/connect', component: <ConnectWallet />},
@@ -57,7 +57,7 @@ const routes = [
   { path: '/forgetPass', component: <ForgetPass />},
     { path: '/problem_statements', component: <BlogGrid />},
   { path: '/blog_list', component: <BlogList />},
-  { path: '/problem_statement', component: <BlogDetails />},
+  { path: '/problem_statementsssss', component: <BlogDetails />},
 
 
 ]
