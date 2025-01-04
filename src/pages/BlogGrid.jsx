@@ -3,10 +3,18 @@ import React from 'react';
 import PageTitle from '../components/pagetitle';
 import CTA from '../components/cta/cta_v2';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import data from '../assets/fake-data/data-blog'
 
 function BlogGrid(props) {
+
+    const navigate = useNavigate();
+
+    const handleBlogClick = (item) => {
+        navigate('/blog_details', { state: { blogData: item } });
+    };
+
     return (
         <div className='inner-page'>
             {<PageTitle title='Blog Grid' />}
@@ -38,14 +46,31 @@ function BlogGrid(props) {
                                 }} 
                             />
                         </div>
-                                <div className="content">
-                                    <Link to="/blog_details" className="tag">{item.cate}</Link>
-                                    <h5 className="title"><Link to="/blog_details">{item.heading}</Link></h5>
-                                    <p>{item.text}</p>
-                                </div>
-                                <Link to="/blog_details" className="tf-button style1">
-                                Read more
+                        <div className="content">
+                                <Link 
+                                    to="/problem_statement"
+                                    state={{ blogData: item }}
+                                    className="tag"
+                                >
+                                    {item.domain}
                                 </Link>
+                                <h5 className="title">
+                                    <Link 
+                                        to="/problem_statement"
+                                        state={{ blogData: item }}
+                                    >
+                                        {item.title}
+                                    </Link>
+                                </h5>
+                                <p>{item.problemStatement}</p>
+                            </div>
+                            <Link 
+                                to="/problem_statement"
+                                state={{ blogData: item }}
+                                className="tf-button style1"
+                            >
+                                Read more
+                            </Link>
                             </div>
                         </div>
                     ))

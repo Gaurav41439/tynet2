@@ -3,7 +3,7 @@ const menus = [
     {
         id: 1,
         name: 'Problem Statements',
-        links: '/blog_grid',
+        links: '/problem_statements',
         yOffset: 0, // Adjust the yOffset for smooth scroll
     },
     {

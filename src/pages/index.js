@@ -55,9 +55,9 @@ const routes = [
     { path: '/login', component: <Login />},
   { path: '/register', component: <Register />},
   { path: '/forgetPass', component: <ForgetPass />},
-    { path: '/blog_grid', component: <BlogGrid />},
+    { path: '/problem_statements', component: <BlogGrid />},
   { path: '/blog_list', component: <BlogList />},
-  { path: '/blog_details', component: <BlogDetails />},
+  { path: '/problem_statement', component: <BlogDetails />},
 
 
 ]
