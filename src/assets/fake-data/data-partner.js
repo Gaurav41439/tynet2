@@ -14,72 +14,92 @@ import img13 from '../images/partner/13.png';
 import img14 from '../images/partner/14.png';
 import img15 from '../images/partner/15.png';
 import img16 from '../images/partner/16.png';
+import acm_india from '../images/partner/new/acm_india_council_logo.png'
+import imperial from '../images/partner/new/imperialoversees.png'
+import wayspire from '../images/partner/new/wayspire.png'
+import nordvpn from '../images/partner/new/nord_vpn_option2.png'
+import nordpass from '../images/partner/new/nord_pass_option2.png'
+import incogni from '../images/partner/new/incogni.png'
+import stock from '../images/partner/new/stockedge.webp'
+import dev from '../images/partner/new/DevArmy.png'
+import interview from '../images/partner/new/interviewbuddy.jpg'
+import foreverlips from '../images/partner/new/ForeverLips.jpg'
+import alpha8 from '../images/partner/new/440631539_1439844003589674_6810106046436486764_n.jpg'
+import saily from '../images/partner/new/Saily.png'
 
 const dataPartner = [
     {
         id: 1,
-        img: img1
+        img: acm_india
     }, 
     {
         id: 2,
-        img: img2
+        img: imperial
     }, 
     {
         id: 3,
-        img: img3
+        img: img1
     }, 
     {
         id: 4,
-        img: img4
+        img: img2
     }, 
     {
         id: 5,
-        img: img5
+        img: wayspire
     }, 
     {
         id: 6,
-        img: img6
+        img: img3
+    }, 
+   
+    {
+        id: 15,
+        img: interview
     }, 
     {
         id: 7,
-        img: img7
+        img: stock
     }, 
     {
-        id: 8,
-        img: img8
+        id: 7,
+        img: nordvpn
     }, 
     {
         id: 9,
-        img: img9
+        img: nordpass
     }, 
     {
         id: 10,
-        img: img10
+        img: incogni
     }, 
     {
         id: 11,
-        img: img11
+        img: img7
     }, 
     {
         id: 12,
-        img: img12
+        img: saily
     }, 
+   
     {
         id: 13,
-        img: img13
+        img: img8
     }, 
+   
     {
         id: 14,
-        img: img14
+        img: dev
     }, 
-    {
-        id: 15,
-        img: img15
-    }, 
+    
     {
         id: 16,
-        img: img16
+        img: foreverlips
     }, 
+    {
+        id: 17,
+        img: alpha8
+    },
 ]
 
 export default dataPartner;

@@ -9,13 +9,19 @@ function Partner(props) {
         title: 'Our Partners',
     });
 
-    const subheadings = ['Subheading 1', 'Subheading 2', 'Subheading 3'];
+    const subheadings = ['Funded by ACM India', 'Powered By', 'Educational Partner','Cybersecurity Partner','Global Connectivity Partner','Media Partner','Community Partner','Grooming Partner','Refreshment Partner'];
 
     // Divide the data into separate arrays for each subheading
     const partnersPerSubheading = [
-        data.slice(0, 4),  // First 5 partners for Subheading 1
-        data.slice(3, 10), // Next 5 partners for Subheading 2
-        data.slice(10, 15) // Next 5 partners for Subheading 3
+        dataPartner.slice(0, 1),  // First 5 partners for Subheading 1
+        dataPartner.slice(1,2), // Next 5 partners for Subheading 2
+        dataPartner.slice(2, 8), // Next 5 partners for Subheading 3
+        dataPartner.slice(8, 12),  // First 5 partners for Subheading 1
+        dataPartner.slice(12,13), // Next 5 partners for Subheading 2
+        dataPartner.slice(13, 14),
+        dataPartner.slice(14, 15),  // First 5 partners for Subheading 1
+        dataPartner.slice(15, 16), // Next 5 partners for Subheading 2
+        dataPartner.slice(16, 17), // Next 5 partners for Subheading 3
     ];
 
     return (
@@ -37,12 +43,31 @@ function Partner(props) {
                                 </h3>
                             </div>
                             <div className="partner-wrapper" data-aos="fade-up" data-aos-duration="800">
-                                {partnersPerSubheading[index].map(partner => (
-                                    <Link key={partner.id} to="/home_v2" className="image">
-                                        <img src={partner.img} alt="" />
-                                    </Link>
-                                ))}
-                            </div>
+    {partnersPerSubheading[index].map((partner, idx) => (
+        <div
+            key={partner.id} 
+            
+            className="image"
+            style={{
+    ...((partner.id === 1 || partner.id === 2 || partner.id === 14) && {
+        width: window.innerWidth <= 768 
+            ? 'calc((100% - 60px) / 2)' 
+            : 'calc((100% - 150px) / 4)'
+    })
+}}
+        >
+            <img 
+                src={partner.img} 
+                alt="" 
+                style={
+                    partner.id === 1  || partner.id === 14 || partner.id === 4
+                    ? { filter: 'brightness(1.5)' } 
+                    : {}
+                }
+            />
+        </div>
+    ))}
+</div>
                         </div>
                     ))}
                 </div>

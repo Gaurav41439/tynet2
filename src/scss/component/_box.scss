@@ -787,19 +787,20 @@
 }
 
 .partner-wrapper {
-    @include flex(center, space-between);
+    @include flex(center, center);
     flex-wrap: wrap;
+    gap: 20px;
     .image {
         width: calc((100% - 150px) / 6);
         margin-bottom: 30px;
-
+        
         img {
-            filter: contrast(0.7);
+           
             @include transition3;
             &.active,
             &:hover {
                 opacity: 1;
-                filter: brightness(1.5)
+                filter: brightness(1.2)
             }
         }
 
