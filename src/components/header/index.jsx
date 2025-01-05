@@ -57,13 +57,13 @@ const Header = () => {
             <div className="container">
                 <div id="site-header-inner">
                     <div className="header__logo">
-                        <NavLink to="/">
-                            <img
-                                src={logo}
-                                alt="Risebot"
-                                className="header-logo-image"
-                            />
-                        </NavLink>
+                    <NavLink to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+    <img
+        src={logo}
+        alt="Risebot"
+        className="header-logo-image"
+    />
+</NavLink>
                     </div>
                     <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`}>
                         <ul id="menu-primary-menu" className="menu">

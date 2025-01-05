@@ -48,6 +48,11 @@ function Contact(props) {
                                             </svg>
                                                     
                                     </div>
+                                    <div style={{ 
+                                    display: 'flex', 
+                                    flexDirection: 'column',
+                                    gap: '20px'
+                                }}>
                                     <div className="content">
                                         <p>Primary Email</p>
                                         <p className="color-hover">tynet.raitacmw@gmail.com</p>
@@ -56,6 +61,7 @@ function Contact(props) {
                                         <p>Secondary Email</p>
                                         <p className="color-hover">reachraitacmw@gmail.com</p>
                                     </div>
+                                </div>
                                 </li>
                                 
                             </ul>

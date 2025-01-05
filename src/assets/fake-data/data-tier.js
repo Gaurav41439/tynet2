@@ -1,33 +1,17 @@
-import img1 from '../images/common/project_17.png';
-import img2 from '../images/common/project_18.png';
-import img3 from '../images/common/project_19.png';
-import img4 from '../images/common/project_20.png';
+
+import img3 from '../images/team/Shruti_team.jpg';
+import img4 from '../images/team/adjust.png';
+import img5 from '../images/team/Shambhavi_team.jpg';
+import img6 from '../images/team/Nishita_team.jpg';
 
 
 const dataTier = [
-    {
-        id: 1,
-        img: img1,
-        title: 'Basic',
-        unit1: '$9,000',
-        unit2: 'Lottery(20%)',
-        unit3: 'Whitelist task',
-        unit4: '03',
-    }, 
-    {
-        id: 2,
-        img: img2,
-        title: 'Medium',
-        unit1: '$20,000',
-        unit2: 'Lottery(50%)',
-        unit3: 'Whitelist task',
-        unit4: '07',
-    }, 
+
     {
         id: 3,
         img: img3,
-        title: 'Advanced',
-        unit1: '$30,000',
+        title: 'Shruti Patil',
+        unit1: 'Chairperson',
         unit2: 'Guaranteed',
         unit3: 'No',
         unit4: '14',
@@ -35,13 +19,30 @@ const dataTier = [
     {
         id: 4,
         img: img4,
-        title: 'Ultimate',
-        unit1: '$40,000',
+        title: 'Siya Kocheri',
+        unit1: 'Vice Chairperson',
         unit2: 'Guaranteed',
         unit3: 'No',
         unit4: '24',
     }, 
-
+    {
+        id: 5,
+        img: img5,
+        title: 'Shambhavi Shukla',
+        unit1: 'General Secretary',
+        unit2: 'Guaranteed',
+        unit3: 'No',
+        unit4: '24',
+    },
+    {
+        id: 6,
+        img: img6,
+        title: 'Nishita Kapkar',
+        unit1: 'Webmaster',
+        unit2: 'Guaranteed',
+        unit3: 'No',
+        unit4: '24',
+    },
 ]
 
 export default dataTier;

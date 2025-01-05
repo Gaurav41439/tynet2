@@ -4,13 +4,13 @@ const menus = [
         id: 1,
         name: 'Problem Statements',
         links: '/problem_statements',
-        yOffset: 0, // Adjust the yOffset for smooth scroll
+        yOffset: 10, // Adjust the yOffset for smooth scroll
     },
     {
         id: 2,
-        name: 'Roadmap',
-        links: '/roadmap',
-        yOffset: 10, // Adjust this value based on where the section is on your page
+        name: 'Teams',
+        links: '/',
+        yOffset: 7850, // Adjust this value based on where the section is on your page
     },
    
     {
@@ -23,7 +23,7 @@ const menus = [
         id: 4,
         name: 'Faq',
         links: '/faqs',
-        yOffset: 0, // Adjust the yOffset accordingly
+        yOffset: 10, // Adjust the yOffset accordingly
     },
     
 ];

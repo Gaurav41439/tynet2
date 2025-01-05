@@ -15,6 +15,8 @@ import Partner from '../components/partner';
 import dataPartner from '../assets/fake-data/data-partner';
 import CTA from '../components/cta';
 import dataTeam from '../assets/fake-data/data-team';
+import Tier from '../components/tier';
+import dataTier from '../assets/fake-data/data-tier';
 
 function HomeOne(props) {
  
@@ -192,7 +194,7 @@ function HomeOne(props) {
             </section>
 
            
-
+            {<Tier data={dataTier} />}
             <CTA />
 
 
