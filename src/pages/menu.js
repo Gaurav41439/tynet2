@@ -10,7 +10,7 @@ const menus = [
         id: 2,
         name: 'Teams',
         links: '/',
-        yOffset: 7850, // Adjust this value based on where the section is on your page
+        yOffset: 8350, // Adjust this value based on where the section is on your page
     },
    
     {
@@ -21,7 +21,7 @@ const menus = [
     },
     {
         id: 4,
-        name: 'Faq',
+        name: 'FAQ',
         links: '/faqs',
         yOffset: 10, // Adjust the yOffset accordingly
     },

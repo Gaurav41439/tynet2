@@ -5,8 +5,9 @@ import img4 from '../images/judges/pranay.jpg';
 import img5 from '../images/judges/sriram.jpg';
 import img6 from '../images/judges/p1.png';
 import img7 from '../images/judges/IMG_6782.png';
-
-
+import img8 from '../images/judges/bhanu.jpg';
+import img9 from '../images/judges/thrusha.jpg';
+import img10 from '../images/judges/arjun.jpg';
 
 const dataTeam = [
     {
@@ -97,6 +98,45 @@ const dataTeam = [
             {
                 id: 2,
                 link: "https://www.linkedin.com/in/euphie-zhou-850b482b1/",
+                icon: "M18.3003 17.8V11.354C18.3003 8.18599 17.6183 5.76599 13.9223 5.76599C12.1403 5.76599 10.9523 6.73399 10.4683 7.65799H10.4243V6.05199H6.92627V17.8H10.5783V11.97C10.5783 10.43 10.8643 8.95599 12.7563 8.95599C14.6263 8.95599 14.6483 10.694 14.6483 12.058V17.778H18.3003V17.8Z"
+            }
+        ]
+    },
+    {
+        id: 8,
+        img : img8,
+        name: 'Bhanuprakash Madhupati',
+        unit: 'I am a Technology Leader and Senior Software Engineer with over 10 years of experience in building scalable, high-performance web applications. With expertise in .NET Core, cloud platforms, and microservices, I am passionate about driving innovation, optimizing system performance, and mentoring emerging technologists',
+        social: [
+            {
+                id: 2,
+                link: "https://www.linkedin.com/in/bhanu-p-b2086567/",
+                icon: "M18.3003 17.8V11.354C18.3003 8.18599 17.6183 5.76599 13.9223 5.76599C12.1403 5.76599 10.9523 6.73399 10.4683 7.65799H10.4243V6.05199H6.92627V17.8H10.5783V11.97C10.5783 10.43 10.8643 8.95599 12.7563 8.95599C14.6263 8.95599 14.6483 10.694 14.6483 12.058V17.778H18.3003V17.8Z"
+            }
+        ]
+    },
+    {
+        id: 8,
+        img : img9,
+        name: 'Thrushna Matharasi',
+        unit: 'Over 12+ years of experience in Data Modeling, Design, and Development of Distributed Database Systems and Data Warehouse Solutions for Mobile Advertising, Finance, Insurance, and Healthcare Clients. Hands-on experience in data lake architecture, ETL frameworks, and AI technologies, with proven leadership in cross-functional teams.',
+        social: [
+            {
+                id: 2,
+                link: "https://www.linkedin.com/in/thrushna-matharasi-2b618880/",
+                icon: "M18.3003 17.8V11.354C18.3003 8.18599 17.6183 5.76599 13.9223 5.76599C12.1403 5.76599 10.9523 6.73399 10.4683 7.65799H10.4243V6.05199H6.92627V17.8H10.5783V11.97C10.5783 10.43 10.8643 8.95599 12.7563 8.95599C14.6263 8.95599 14.6483 10.694 14.6483 12.058V17.778H18.3003V17.8Z"
+            }
+        ]
+    },
+    {
+        id: 8,
+        img : img10,
+        name: 'Arjun Mullick',
+        unit: "Arjun Mullick is an Engineering Manager at Meta, leading teams in Ads for Facebook, Instagram and Messenger . With a rich background at Amazon and Audible, he has driven significant revenue growth and technological advancements. Arjun's expertise in scalable systems and privacy-focused solutions makes him a pivotal figure in online advertising.",
+        social: [
+            {
+                id: 2,
+                link: "https://www.linkedin.com/in/arjunmullick/",
                 icon: "M18.3003 17.8V11.354C18.3003 8.18599 17.6183 5.76599 13.9223 5.76599C12.1403 5.76599 10.9523 6.73399 10.4683 7.65799H10.4243V6.05199H6.92627V17.8H10.5783V11.97C10.5783 10.43 10.8643 8.95599 12.7563 8.95599C14.6263 8.95599 14.6483 10.694 14.6483 12.058V17.778H18.3003V17.8Z"
             }
         ]

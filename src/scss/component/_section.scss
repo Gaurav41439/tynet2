@@ -2595,7 +2595,7 @@
 
             &::before {
                 font-family: 'risebot';
-                content: "\e902";
+                content: "+";
                 font-size: 28px;
             position: absolute;
             left: 5px;
@@ -2608,7 +2608,7 @@
             &::after {
                 font-family: 'risebot';
                 position: absolute;
-                content: "\e900";
+                content: "▼";
                 right: 0;
                 top: 0;
                 @include transition3;
