@@ -9,14 +9,15 @@ function Partner(props) {
         title: 'Our Partners',
     });
 
-    const subheadings = ['Funded by ACM India', 'Powered By', 'Educational Partner','Cybersecurity Partner','Global Connectivity Partner','Media Partner','Community Partner','Grooming Partner','Refreshment Partner'];
+    const subheadings = ['Funded by ACM India', 'Powered By', 'Educational Partner','Cybersecurity Partner','Technology Partner','Global Connectivity Partner','Media Partner','Community Partner','Grooming Partner','Refreshment Partner'];
 
     // Divide the data into separate arrays for each subheading
     const partnersPerSubheading = [
         dataPartner.slice(0, 1),  // First 5 partners for Subheading 1
         dataPartner.slice(1,2), // Next 5 partners for Subheading 2
-        dataPartner.slice(2, 8), // Next 5 partners for Subheading 3
+        dataPartner.slice(3, 8), // Next 5 partners for Subheading 3
         dataPartner.slice(8, 12),  // First 5 partners for Subheading 1
+        dataPartner.slice(2,3),  // First 5 partners for Subheading 1
         dataPartner.slice(12,13), // Next 5 partners for Subheading 2
         dataPartner.slice(13, 14),
         dataPartner.slice(14, 15),  // First 5 partners for Subheading 1
